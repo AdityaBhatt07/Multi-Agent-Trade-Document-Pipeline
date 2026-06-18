@@ -8,9 +8,9 @@ against a customer rule set, and decides what to do next.
 
 ```
 Streamlit UI -> LangGraph orchestrator (Extractor -> Validator -> Router)
-                -> SQLite checkpointer (crash recovery)
-                -> SQLite storage (final results)
-                -> NL query layer
+-> SQLite checkpointer (crash recovery)
+-> SQLite storage (final results)
+-> NL query layer
 ```
 
 Each agent (`agents/extractor_agent.py`, `agents/validator_agent.py`,
