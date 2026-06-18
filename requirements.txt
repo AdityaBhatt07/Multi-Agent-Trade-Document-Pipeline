@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langgraph>=1.0
+langgraph-checkpoint-sqlite
+langchain-core
+google-genai
+pydantic>=2.0
+sqlalchemy
+streamlit
+python-dotenv
+pdf2image
+Pillow
+reportlab
+pytest
